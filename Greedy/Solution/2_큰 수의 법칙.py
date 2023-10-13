@@ -16,6 +16,7 @@ result += (M - count) * second_max
 print(result)
 
 
+
 """
     # Another Solution #
     
