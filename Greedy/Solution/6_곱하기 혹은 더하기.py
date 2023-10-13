@@ -5,9 +5,10 @@ S = input().rstrip()
 result = int(S[0])
 
 for i in S[1:]:
-    if (result <= 1 or int(i) <= 1):
-        result += int(i)
+    num = int(i)
+    if (result <= 1 or num <= 1):
+        result += num
     else:
-        result *= int(i)
+        result *= num
         
 print(result)
