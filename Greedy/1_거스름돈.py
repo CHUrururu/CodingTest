@@ -1,14 +1,14 @@
 import sys
 input = sys.stdin.readline
 
-N = int(input())
+price = 1000 - int(input())
+coin_types = [500, 100, 50, 10, 5, 1]
 count = 0
-coin_types = [500, 100, 50, 10]
 
 for coin in coin_types:
-    count += N // coin
-    N %= coin
-    if (N == 0):
+    count += (price // coin)
+    price %= coin
+    if (price == 0):
         break
 
 print(count)
