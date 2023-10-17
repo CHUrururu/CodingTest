@@ -15,7 +15,7 @@ print(target)
 
 
 """
-    # Additional Explanation#
+    # Additional Explanation #
     
     data = [1, 2, 4, 7]일 경우,
     
