@@ -17,6 +17,7 @@
 12|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|<a href="https://github.com/CHUrururu/CodingTest/blob/master/Greedy/Solution/12_%EC%B9%B4%EB%93%9C%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.py"><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>||<img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="20" height="20">|
 13|[수를 묶어서 최댓값 만들기](https://www.acmicpc.net/problem/1744)|<a href="https://github.com/CHUrururu/CodingTest/blob/master/Greedy/Solution/13_%EC%88%98%EB%A5%BC%20%EB%AC%B6%EC%96%B4%EC%84%9C%20%EC%B5%9C%EB%8C%93%EA%B0%92%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py"><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>||<img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="20" height="20">|
 14|[회의실 배정하기](https://www.acmicpc.net/problem/1931)|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>||<img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">|
+15|[최솟값을 만드는 괄호 배치 찾기](https://www.acmicpc.net/problem/1541)|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>||<img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">|
 <br/>
 
 
