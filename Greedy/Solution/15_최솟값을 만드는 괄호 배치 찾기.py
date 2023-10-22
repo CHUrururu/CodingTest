@@ -22,6 +22,7 @@ print(answer)
 
 """
     # Another Solution #
+    
     answer = 0
     A = list(map(str, input().split('-')))
 
