@@ -4,7 +4,7 @@
 순번|문제|풀이|답안|난이도|기출
 :---:|:---:|:---:|:---:|:---:|:---:|
 1|[음료수 얼려 먹기](https://github.com/CHUrururu/CodingTest/blob/master/DFS%2C%20BFS/Problem/1_%EC%9D%8C%EB%A3%8C%EC%88%98%20%EC%96%BC%EB%A0%A4%20%EB%A8%B9%EA%B8%B0.md)|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/2702/2702154.png" width="20" height="20"/></a>||
-2|[미로 탈출]()|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/2702/2702154.png" width="20" height="20"/></a>||
+2|[미로 탈출](https://github.com/CHUrururu/CodingTest/blob/master/DFS%2C%20BFS/Problem/2_%EB%AF%B8%EB%A1%9C%20%ED%83%88%EC%B6%9C.md)|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/2702/2702154.png" width="20" height="20"/></a>||
 3|[]()|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/2702/2702154.png" width="20" height="20"/></a>||
 4|[]()|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/2702/2702154.png" width="20" height="20"/></a>||
 5|[]()|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/7046/7046086.png" width="20" height="20"/></a>|<a href=""><img src="https://cdn-icons-png.flaticon.com/512/2702/2702154.png" width="20" height="20"/></a>|<img src="https://d2gd6pc034wcta.cloudfront.net/tier/4.svg" width="20" height="20">|
