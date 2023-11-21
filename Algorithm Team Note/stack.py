@@ -1,4 +1,4 @@
-class stack:
+class Stack:
     def __init__(self, size = 10000):
         self.arr = [None] * size
         self.last_index = 0
