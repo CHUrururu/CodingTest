@@ -5,25 +5,22 @@ N = 5
 stages = [2, 1, 2, 6, 2, 4, 3, 3]
 
 def solution(N, stages):
-    failure = []
     answer = []
+    b = len(stages)
     
-    for i in range(1, N + 1):
-        a = stages.count(i)
-        b = 0
-        for j in stages:
-            if (j >= i):
-                b += 1
+    for stage in range(1, N + 1):
+        a = stages.count(stage)
         
-        if (a == 0 or b == 0):
-            failure.append((0, i))
+        if (b != 0):
+            failure = a / b
+            b -= a
         else:
-            failure.append((a / b, i))
-
-    failure.sort(key = lambda x : (-x[0], x[1]))
-    
-    for i in failure:
-        answer.append(i[1])
+            failure = 0
+            
+        answer.append((failure, stage))
+           
+    answer.sort(key = lambda x : -x[0])
+    answer = [i[1] for i in answer] 
     
     return answer
 
