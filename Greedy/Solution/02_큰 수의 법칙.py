@@ -7,7 +7,8 @@ data = sorted(list(map(int, input().split())))
 first_max = data[-1]
 second_max = data[-2]
 
-count = (M // (K + 1)) * K
+# (K + 1) = ((first_max * K) + second_max)
+count = (M // (K + 1)) * K 
 count += M % (K + 1)
 
 result = count * first_max
