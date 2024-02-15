@@ -26,9 +26,8 @@ print(count)
     result = 0
 
     while (True):
-        target = (N // K) * K
-        result += (N - target)
-        N = target
+        result += (N % K)
+        N = (N // K) * K
         
         if (N < K):
             break
