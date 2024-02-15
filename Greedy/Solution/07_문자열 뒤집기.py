@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 
 S = input().rstrip()
-group = 'none'
+group = ''
 count0 = 0
 count1 = 0
 
