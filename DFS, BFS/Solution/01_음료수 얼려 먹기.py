@@ -1,29 +1,26 @@
 N, M = map(int, input().split())
+frame = [list(map(int, input())) for _ in range(N)]
+visited = [[False] * M for _ in range(N)]
+count = 0
 
-frame = []
-for _ in range(N):
-    frame.append(list(map(int, input())))
-    
 def dfs(x, y):
-    if (x <= -1 or x >= N or y <= -1 or y >= M):
+    if x < 0 or x >= N or y < 0 or y >= M:
         return False
-    
-    if (frame[x][y] == 0):
-        frame[x][y] = 1
         
-        dfs(x - 1, y)
-        dfs(x, y - 1)
-        dfs(x + 1, y)
-        dfs(x, y + 1)
-        
-        return True
-    
+    if not visited[x][y]:
+        visited[x][y] = True
+        if frame[x][y] == 0:
+            dfs(x - 1, y)
+            dfs(x + 1, y)
+            dfs(x, y - 1)
+            dfs(x, y + 1)
+            return True
+            
     return False
 
-count = 0
 for i in range(N):
     for j in range(M):
-        if (dfs(i, j) == True):
+        if dfs(i, j):
             count += 1
-            
+
 print(count)
